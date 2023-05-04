@@ -1,7 +1,6 @@
-
 const App = () => {
     return (
-        <div>App</div>
+        <div>Hello World</div>
     )
 }
 
