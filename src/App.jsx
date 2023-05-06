@@ -12,17 +12,16 @@ import Testimonials from './sections/testimonials/Testimonials';
 const App = () => {
     return (
         <main>
+            <Header/>            
+            <NavBar/>
             <About/>
             <Contact/>
             <FAQs/>
             <FloatingNav/>
-            <Footer/>
-            <Header/>
-            <NavBar/>
             <Portfolio/>
             <Services/>
-            <Testimonials/>
-
+            <Testimonials/>            
+            <Footer/>
         </main>
     )
 }
