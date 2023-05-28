@@ -2,8 +2,9 @@ nav {
     width: 100vw;
     height: 5rem;
     display: grid;
+    grid-template-columns: 3fr;
     place-items: center;
-    background: var(--color-blue);
+    background: var(--color-fade);
     position: fixed;
     top: 0;
     left: 0;
@@ -19,6 +20,8 @@ nav {
 }
 
 .nav__logo {
+    position: absolute;
+    left: 2rem;
     width: 2.5rem;
     border-radius: 50%;
     overflow: hidden;
@@ -65,5 +68,11 @@ nav {
         
 
 
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .nav__menu_small {
+        gap: 1.5rem;
     }
 }

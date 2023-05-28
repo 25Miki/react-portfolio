@@ -9,10 +9,20 @@
 }
 
 :root {
-    
+    --primary-hue: 263; 
+    --black-lightness: 15%;
+    --dark-lightness: 44%;
+    --light-lightness: 94%;
+    --white-lightness: 100%;
+    --color-primary: hsl(var(--primary-hue), 100%, 50%);
+    --color-white: hsl(0, 5%, var(--white-lightness));
+    --color-light: hsl(var(--primary-hue), 5%, var(--light-lightness));
+    --color-black: hsl(var(--primary-hue), 5%, var(--black-lightness));
+    --color-dark: hsl(var(--primary-hue), 5%, var(--dark-lightness));
+    --color-fade: hsl(var(--primary-hue), 100%, 50%, 70%);
 
     /* GENERAL CONTAINER VARIABLES */
-    --container-width-lg: 76%;
+    --container-width-lg: 100%;
     --container-width-md: 90%;
 
     /* BORDER RADIUS VARIABLES */
@@ -39,57 +49,9 @@ body {
 
 
 
-
-
-
-
-
-/* THEME change using react */
-main.color-1 {
-    --primary-hue: 270;
-}
-main.color-2 {
-    --primary-hue: 110;
-}
-main.color-3 {
-    --primary-hue: 240;
-}
-main.color-4 {
-    --primary-hue: 325;
-}
-main.color-5 {
-    --primary-hue: 0;
-}
-main.color-6 {
-    --primary-hue: 55;
-}
-
-main.bg-2 {
-    --black-lightness: 96%;
-    --dark-lightness: 60%;
-    --light-lightness: 12%;
-    --white-lightness: 6%;
-    --color-white: hsl(0, 5%, var(--white-lightness));
-    --color-light: hsl(var(--primary-hue), 5%, var(--light-lightness));
-    --color-black: hsl(var(--primary-hue), 5%, var(--black-lightness));
-    --color-dark: hsl(var(--primary-hue), 5%, var(--dark-lightness));
-}
-
-main {
-    color: var(--color-dark);
-    --color-primary: hsl(var(--primary-hue), 89%, 41%);
-}
-
-
-
-
-
-
-
-
 /* GENERAL CONTAINER CLASS */
 .container {
-    width: var(--container-width-lg);
+    width: var(--container-width-md);
     margin-inline: auto;
     max-width: 1920px;
 }
@@ -203,6 +165,10 @@ img {
 
 .btn.sm {
     padding: 0.5rem 1.2rem;
+}
+
+#loom-companion-mv3 {
+    display: none;
 }
 
 

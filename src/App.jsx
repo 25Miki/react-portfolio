@@ -5,7 +5,6 @@ import Services from './sections/services/Services';
 import Portfolio from './sections/portfolio/Portfolio';
 import Contact from './sections/contact/Contact';
 
-import {useRef, useState, useEffect} from 'react'
 
 const App = () => {
 
@@ -17,7 +16,6 @@ const App = () => {
         <Services/>
         <Portfolio/>
         <Contact/>
-       
     </main>
   )
 }

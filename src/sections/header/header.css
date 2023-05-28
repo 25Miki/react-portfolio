@@ -44,13 +44,14 @@ header {
 }
 
 .header__socials a {
-    width: 1.8rem;
+    width: 2.5rem;
     aspect-ratio: 1/1;
     background: var(--color-light);
     color: var(--color-black);
     display: grid;
     place-items: center;
     border-radius: var(--border-radius-3);
+    font-size: 1.5rem;
 }
 
 .header__socials a:hover {
@@ -70,7 +71,7 @@ header {
 
 
 /* MEDIA QUERIES (tablets) */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 710px) {
     .header__profile {
         width: 14rem;
         height: 17rem;
@@ -87,6 +88,8 @@ header {
     }
 
     .header__socials {
-        display: none;
+        position: inherit;
+        flex-direction: row;
+        margin-top: 2rem;
     }
 }
