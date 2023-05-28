@@ -7,6 +7,10 @@ import Image6 from '../../assets/project6.jpg'
 import Image7 from '../../assets/project7.jpg'
 import Image8 from '../../assets/project8.jpg'
 import Image9 from '../../assets/project9.jpg'
+import Image10 from '../../assets/project10.png'
+import Image11 from '../../assets/avatar6.jpg'
+
+
 
 const data = [
     {
@@ -89,7 +93,26 @@ const data = [
         desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!",
         demo: 'http://egatortutorials.com',
         github: 'https://github.com/egattor'
+    },
+
+    {
+        id: 10,
+        category: 'art',
+        image: Image10,
+        desc: "Descripción del dibujo y de la técnica utilizada",
+
+        
+    },
+
+    {
+        id: 11,
+        category: 'art',
+        image: Image11,
+        desc: "Descripción del dibujo y de la técnica utilizada",
+
+        
     }
+
 ]
 
 
