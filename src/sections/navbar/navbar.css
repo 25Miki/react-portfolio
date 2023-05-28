@@ -3,7 +3,7 @@ nav {
     height: 5rem;
     display: grid;
     place-items: center;
-    background: var(--color-primary);
+    background: var(--color-blue);
     position: fixed;
     top: 0;
     left: 0;
@@ -14,7 +14,7 @@ nav {
 
 .nav__container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -29,20 +29,41 @@ nav {
     gap: 3.5rem;
 }
 
-.nav__menu a {
+.nav__menu_small {
+    display: flex;
+    gap: 3rem;
+    font-size: 1.7rem;
+}
+
+[class^="nav__menu"] a {
     color: white;
 }
 
-#theme__icon {
-    background: transparent;
-    color: white;
-    font-size: 2rem;
-    cursor: pointer;
+.nav__menu_small {
+    display: none;
+    
 }
+
 
 /* HIDE NAV MENU ON TABLETS AND PHONES */
 @media screen and (max-width: 1024px) {
-    .nav__menu {
+    .nav__menu, .nav__logo{
         display: none;
+    }
+
+
+    .nav__menu_small{
+        display: flex;
+    }
+
+    nav {
+        width: 70vw;
+        justify-content: space-around;
+        margin-left: 15vw;
+        border-radius: var(--border-radius-1);
+        top: 1rem;
+        
+
+
     }
 }

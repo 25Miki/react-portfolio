@@ -1,11 +1,8 @@
 import Logo from '../../assets/logo.jpg'
 import data from './data'
-import {IoIosColorPalette} from 'react-icons/io'
-import { useModalContext } from '../../context/modal-context'
 import './navbar.css'
 
 const Navbar = () => {
-  const {showModalHandler} = useModalContext();
 
   return (
     <nav>
@@ -15,10 +12,15 @@ const Navbar = () => {
         </a>
         <ul className='nav__menu'>
           {
-            data.map(item => <li key={item.id}><a href={item.link}>{item.title}</a></li>)
+            data.map(item => <a href={item.link}>{item.title}</a>)
           }
         </ul>
-        <button id='theme__icon' onClick={showModalHandler}><IoIosColorPalette/></button>
+
+        <ul className='nav__menu_small'>
+          {
+            data.map(item => <a href={item.link}>{item.icon}</a>)
+          }
+        </ul>
       </div>
     </nav>
   )
