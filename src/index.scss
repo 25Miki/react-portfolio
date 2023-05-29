@@ -22,8 +22,11 @@
     --color-fade: hsl(var(--primary-hue), 100%, 50%, 70%);
 
     /* GENERAL CONTAINER VARIABLES */
-    --container-width-lg: 100%;
-    --container-width-md: 90%;
+    --container-width-lg: 100vw;
+    --container-width-md: 90vw;
+    --container-width-sm: 50vw;
+
+    --container-width-modal: 
 
     /* BORDER RADIUS VARIABLES */
     --border-radius-1: 1.2rem;
