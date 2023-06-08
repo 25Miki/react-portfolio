@@ -9,10 +9,11 @@ const Header = () => {
         <div className="header__profile">
           <img src={HeaderImage} alt="Header Portait" />
         </div>
-        <h3>Hajia Bintu</h3>
+        <h2>Hi! I'm Miki</h2>
         <p>
-        You are a click away from building your dream website or web app. Send me the details of your project for a modern, mobile responsive, highly performant website today!
-        </p>
+        I'm a junior web developer and designer, passionate about building awesome 
+        websites that combine technical excellence with a creative flair. Let's 
+        collaborate and bring your digital vision to life!</p>
         <div className="header__cta">
           <a href="#contact" className='btn primary'>Let's Talk</a>
           <a href="#portfolio" className='btn light'>My Work</a>

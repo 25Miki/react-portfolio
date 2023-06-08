@@ -2,7 +2,7 @@
     width: fit-content;
     display: flex;
     justify-content: center;
-    gap: 3rem;
+    gap: 4rem;
 }
 
 .contact__container a {

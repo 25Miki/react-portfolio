@@ -1,22 +1,19 @@
 import {SiAdobexd} from 'react-icons/si'
 import {RiReactjsLine} from 'react-icons/ri'
-import {FaServer} from 'react-icons/fa'
-import {AiFillAppstore} from 'react-icons/ai'
+import {GiPencilBrush} from 'react-icons/gi'
 
 
 const data = [
     {
-        id: 1, icon: <SiAdobexd/>, title: 'UI/UX Design', desc: "My designs are modern and intuitive. I use industry-standard rules to make sure your users have fun using your product."
+        id: 1, icon: <SiAdobexd/>, title: 'UI/UX Design', desc: "While I appreciate aesthetics, my focus lies in prioritizing functionality to ensure seamless user experiences."
     },
     {
-        id: 2, icon: <RiReactjsLine/>, title: 'Frontend Development', desc: "Your product will look good and will be accessible on all devices, including mobile phones, tablets, and desktop."
+        id: 2, icon: <RiReactjsLine/>, title: 'Frontend Development', desc: "Front-end development is where I bring designs to life, creating interactive and user-friendly experiences for the web."
     },
     {
-        id: 3, icon: <FaServer/>, title: 'Backend Development', desc: "The security of your business/product is taken seriously right from the start of the project. I will make sure your website/app is secure from attacks."
+        id: 3, icon: <GiPencilBrush/>, title: 'Digital artist', desc: "From videogame illustrations to web designs, my creative talents span across various mediums, allowing me to bring a diverse and captivating aesthetic to my work."
     },
-    {
-        id: 4, icon: <AiFillAppstore/>, title: 'App Development', desc: 'Unlike other developers in the market, I will building an app that runs on both IOS and Android devices without any extra cost to you.'
-    }
+    
 ]
 
 

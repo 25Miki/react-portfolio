@@ -92,4 +92,10 @@ header {
         flex-direction: row;
         margin-top: 2rem;
     }
+
+    .header__socials a:hover {
+        background: var(--color-primary);
+        color: var(--color-white);
+        transform: translateY(0.5rem);
+    }
 }
