@@ -34,6 +34,32 @@ const Project = ({ project }) => {
     );
   }
 
+  if (project.category === 'videogames') {
+    return (
+      <>
+      <Card className="portfolio__project">
+        <div className="portfolio__project-image">
+          <div href={project.image}  onClick={openModal}>
+            <img src={project.image} alt="Portfolio Project Image" />
+          </div>
+        </div>
+        <h4>{project.title}</h4>
+        <p>{project.desc}</p>
+        <div className="portfolio__project-cta">
+          <a href={project.youtube} className="btn sm primary" target="_blank">
+            Youtube
+          </a>
+        </div>
+      </Card>
+      {isModalOpen && (
+        <Modal closeModal={closeModal}>
+          <img src={project.image} alt="Portfolio Project Image" />
+        </Modal>
+      )}
+    </>
+    )
+  }
+
   return (
     <>
       <Card className="portfolio__project">
