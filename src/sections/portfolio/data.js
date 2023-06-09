@@ -1,4 +1,4 @@
-import Image1 from '../../assets/project1.jpg'
+import Image1 from '../../assets/Fire and Fable.png'
 import Image2 from '../../assets/Pokedex.png'
 import Image3 from '../../assets/a way home.png'
 import Image4 from '../../assets/project4.jpg'
@@ -17,10 +17,9 @@ const data = [
         id: 1,
         category: 'uiux',
         image: Image1,
-        title: "Project Title One (UIUX)",
-        desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!",
-        demo: 'http://egatortutorials.com',
-        github: 'https://github.com/egattor'
+        title: "Fire & Fable (UIUX)",
+        desc: "New design for the Fire & Fable candle online shop",
+        figma: 'https://www.figma.com/file/zLnIhTsxXzOmLpKKqYFsQA/Marchante-Llopis%2C-Miki---Proyecto-Beta?type=design&node-id=0-1&t=fhIPOVkO92q6paqy-0'
     },
     {
         id: 2,
@@ -44,19 +43,12 @@ const data = [
         id: 10,
         category: 'art',
         image: Image10,
-        desc: "Descripción del dibujo y de la técnica utilizada",
+        title: "Dodogama (Art)",
+        desc: "Pixelart fanart of the Monster Hunter's creature 'Dodogama'.",
 
         
     },
 
-    {
-        id: 11,
-        category: 'art',
-        image: Image11,
-        desc: "Descripción del dibujo y de la técnica utilizada",
-
-        
-    }
 
 ]
 
