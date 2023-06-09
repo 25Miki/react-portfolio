@@ -1,7 +1,7 @@
 import Image1 from '../../assets/Fire and Fable.png'
 import Image2 from '../../assets/Pokedex.png'
 import Image3 from '../../assets/a way home.png'
-import Image4 from '../../assets/project4.jpg'
+import Image4 from '../../assets/to-do.png'
 import Image5 from '../../assets/project5.jpg'
 import Image6 from '../../assets/project6.jpg'
 import Image7 from '../../assets/project7.jpg'
@@ -36,6 +36,15 @@ const data = [
         image: Image3,
         title: "A way home (Videogames)",
         desc: "Videogame demo about an astronaut who has to scape from this planet and return home. Art made by Chalbus and Mario Casanova, code made by Natalia Sanchez and me.",
+        youtube: 'https://www.youtube.com/watch?v=GSGm-iVSKHI&ab_channel=Interacci%C3%B3nyVideojuegos.BBAA-UPV'
+    },
+
+    {
+        id: 4,
+        category: 'javascrpt',
+        image: Image4,
+        title: "To-do list (JS)",
+        desc: "Javascript exercise",
         youtube: 'https://www.youtube.com/watch?v=GSGm-iVSKHI&ab_channel=Interacci%C3%B3nyVideojuegos.BBAA-UPV'
     },
 
