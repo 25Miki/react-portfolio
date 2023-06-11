@@ -22,7 +22,7 @@ const data = [
         image: Image2,
         title: "Pokedex (React)",
         desc: "Tribute to the original pokedex shown in the first season of the anime. Contains a list of the first 151 pokemon, their numbers and their descriptions.",
-        github: 'https://github.com/egattor'
+        github: 'https://github.com/25Miki/Pokedex'
     },
 
     {
@@ -40,7 +40,7 @@ const data = [
         image: Image4,
         title: "To-do list (JS)",
         desc: "Javascript exercise",
-        youtube: 'https://github.com/25Miki/To-do'
+        github: 'https://github.com/25Miki/To-do'
     },
 
     {
